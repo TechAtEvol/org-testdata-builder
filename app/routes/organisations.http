@@ -1,0 +1,9 @@
+### Creating testdata for organisations
+POST http://localhost:3000/organisations
+
+{
+    "quantity": 1
+}
+
+### Looks up saved organisations
+GET http://localhost:3000/organisations
